@@ -36,19 +36,19 @@ class Config(object):
     # digital_botz client config
     API_ID = os.environ.get("API_ID", "25443969")
     API_HASH = os.environ.get("API_HASH", "ee48a096a6a929805567d899e72a7d1c")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7747117789:AAEczoECPs7pSThtMtlarVUsHvZq0Zm5lQI") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","mongodb+srv://Manjugoudar:Manju123@cluster0.7t0bw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Manjugoudar:Manju123@cluster0.7t0bw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 mongodb+srv://imdb:Preethu@cluster0.ongns.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/I6I.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002542497980"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002650620279"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
