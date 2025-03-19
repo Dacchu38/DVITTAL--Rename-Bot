@@ -34,8 +34,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "25443969")
+    API_HASH = os.environ.get("API_HASH", "ee48a096a6a929805567d899e72a7d1c")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium account string session required 😢 
@@ -43,12 +43,12 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Manjugoudar:Manju123@cluster0.7t0bw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/I6I.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002542497980"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -59,9 +59,9 @@ class Config(object):
     
     #force subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "-1002220670718")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("DVITTALKANNADAMOVIE", "Digital_Botz")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -221,7 +221,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 """
     
     RKN_PROGRESS = """<b>\n
-╭━━━━❰RKN PROCESSING...❱━➣
+╭━━━━❰DVITTAL PROCESSING...❱━➣
 ┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
 ┣⪼ 🚀 ꜱᴩᴇᴇᴅ: {3}/s
